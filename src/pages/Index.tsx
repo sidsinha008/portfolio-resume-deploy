@@ -1,21 +1,10 @@
-import profilePhoto from "@/assets/siddhant-photo.jpg";
-
 const Index = () => {
   return (
     <main className="min-h-screen bg-background py-8 px-4">
       <div className="max-w-[850px] mx-auto bg-white shadow-lg">
-        {/* Header with Photo */}
-        <header className="relative pt-12 pb-6 px-12">
-          {/* Photo in top-right corner */}
-          <div className="absolute top-8 right-8">
-            <img 
-              src={profilePhoto} 
-              alt="Siddhant Sinha" 
-              className="w-32 h-32 object-cover border-2 border-foreground"
-            />
-          </div>
-          
-          <div className="text-center pr-36">
+        {/* Header */}
+        <header className="pt-12 pb-6 px-12">
+          <div className="text-center">
             <h1 className="text-5xl font-bold tracking-wide mb-2" style={{ fontFamily: 'Georgia, serif' }}>
               SIDDHANT SINHA
             </h1>
